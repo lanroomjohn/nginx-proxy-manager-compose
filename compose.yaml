@@ -13,5 +13,5 @@ services:
       TZ: "America/Toronto"
 
     volumes:
-      - ./opt/nginxpm/data:/data
-      - ./opt/nginxpm/letsencrypt:/etc/letsencrypt
+      - /opt/nginxpm/data:/data
+      - /opt/nginxpm/letsencrypt:/etc/letsencrypt
